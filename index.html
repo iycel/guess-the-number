@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/Clarusway.png" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <div class="guess">     
+        <h1>Guess the Number (1 - 100)</h1>
+        <p id="outputtext">Try Your Luck</p>
+        <input  name="guess" id="userinput">
+        <button id="btn">CHECK</button>
+        </div>
+        <div class="hat">
+            <div>
+                <img id="backimg" class="hat-img" src="./assets/hat2.png" alt="">
+            </div>
+            <div class="hat-write">
+                <p><strong>Write the Number</strong></p>
+                <p id="attempt">Number of attempts <span class="attempt"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
